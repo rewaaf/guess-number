@@ -18,7 +18,7 @@ while True:
         print('You are low')
         tries += 1
 
-    choice = input('if you want to quit? enter (exit): ')
+    choice = input('if you want to quit, enter (exit): ')
 
     if choice == 'exit':
         break
