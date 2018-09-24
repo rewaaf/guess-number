@@ -1,6 +1,6 @@
 import random
 
-tries = 0
+attempts = 0
 
 while True:
 
@@ -10,17 +10,17 @@ while True:
 
     if random_num == user_num :
         print('You alright!')
-        tries += 1
+        attempts += 1
     elif user_num > random_num:
         print('You are high')
-        tries += 1
+        attempts += 1
     elif user_num < random_num:
         print('You are low')
-        tries += 1
+        attempts += 1
 
     choice = input('if you want to quit, enter (exit): ')
 
     if choice == 'exit':
         break
 
-print('The number of guesses is: ' + str(tries))
+print('The number of guesses is: ' + str(attempts))
